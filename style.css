@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  background-color: hsl(217, 54%, 11%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 340px;
+  height: 600px;
+  border-radius: 16px;
+  padding: 20px;
+  font-family: Outfit;
+}
+
+.card > img {
+  object-fit: contain;
+  width: 100%;
+
+  border-radius: 11px;
+}
+.card > h3 {
+  color: hsl(0, 0%, 100%);
+  font-family: Outfit;
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.card > p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  color: hsl(215, 51%, 70%);
+}
+.ethAndTime {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+  font-weight: 300;
+}
+.eth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.time > h4 {
+  margin-left: 5px;
+  color: hsl(215, 51%, 70%);
+}
+.eth > h4 {
+  margin-left: 5px;
+  color: hsl(178, 100%, 50%);
+}
+.line {
+  border-top: 0.1px solid hsl(215, 32%, 27%);
+  margin-top: 20px;
+}
+.ownerInfo {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.ownerInfo > img {
+  object-fit: contain;
+  width: 40px;
+  border: solid hsl(0, 0%, 100%) 2px;
+  border-radius: 50px;
+}
+.ownerInfo > h5 {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(215, 51%, 70%);
+}
+.ownerName {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+}
+.attribution {
+  font-size: 15px;
+  position: absolute;
+  bottom: 10px;
+  color: hsl(0, 0%, 100%);
+  font-family: Outfit;
+}
+.attribution > a {
+  color: hsl(228, 45%, 44%);
+}
