@@ -29,7 +29,7 @@
 
   border-radius: 11px;
 }
-.card > h3 {
+.card > h1 {
   color: hsl(0, 0%, 100%);
   font-family: Outfit;
   font-weight: 600;
