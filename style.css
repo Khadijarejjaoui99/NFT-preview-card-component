@@ -59,11 +59,11 @@
   align-items: center;
   justify-content: center;
 }
-.time > h4 {
+.time > h2 {
   margin-left: 5px;
   color: hsl(215, 51%, 70%);
 }
-.eth > h4 {
+.eth > h2 {
   margin-left: 5px;
   color: hsl(178, 100%, 50%);
 }
@@ -82,7 +82,7 @@
   border: solid hsl(0, 0%, 100%) 2px;
   border-radius: 50px;
 }
-.ownerInfo > h5 {
+.ownerInfo > h3 {
   margin-left: 10px;
   font-size: 18px;
   font-weight: 400;
@@ -91,14 +91,4 @@
 .ownerName {
   color: hsl(0, 0%, 100%);
   font-weight: 400;
-}
-.attribution {
-  font-size: 15px;
-  position: absolute;
-  bottom: 10px;
-  color: hsl(0, 0%, 100%);
-  font-family: Outfit;
-}
-.attribution > a {
-  color: hsl(228, 45%, 44%);
 }
